@@ -1,0 +1,316 @@
+{
+  "rule": "Table 1. Flags are recorded judgments; scorecard.score() is mechanical.",
+  "published_date": "2026-09-13",
+  "rows": [
+    {
+      "id": "1",
+      "claim": "Eval agents (classifiers off) reached Hugging Face production, Jul 2026",
+      "published": "E",
+      "flags": {
+        "internals_only": false,
+        "two_contradict": false,
+        "two_independent_same_event": true,
+        "uncontested_first_party_own": true,
+        "metr_only_count": false,
+        "single_uncorroborated": false,
+        "assert_plus_scope_out": false
+      }
+    },
+    {
+      "id": "2",
+      "claim": "HF entry: local file-read then template injection; cloud harness as launchpad",
+      "published": "E",
+      "flags": {
+        "internals_only": false,
+        "two_contradict": false,
+        "two_independent_same_event": true,
+        "uncontested_first_party_own": true,
+        "metr_only_count": false,
+        "single_uncorroborated": false,
+        "assert_plus_scope_out": false
+      }
+    },
+    {
+      "id": "3",
+      "claim": "Customer content = five solution datasets",
+      "published": "E",
+      "flags": {
+        "internals_only": false,
+        "two_contradict": false,
+        "two_independent_same_event": false,
+        "uncontested_first_party_own": true,
+        "metr_only_count": false,
+        "single_uncorroborated": false,
+        "assert_plus_scope_out": false
+      }
+    },
+    {
+      "id": "4",
+      "claim": "Shared package cache as mailbox; reinvented after 4–6 Jul wipe",
+      "published": "E",
+      "flags": {
+        "internals_only": false,
+        "two_contradict": false,
+        "two_independent_same_event": true,
+        "uncontested_first_party_own": false,
+        "metr_only_count": false,
+        "single_uncorroborated": false,
+        "assert_plus_scope_out": false
+      }
+    },
+    {
+      "id": "5",
+      "claim": "~1,200 board agents; ~700 in the HF attack; one family ~95%",
+      "published": "N",
+      "flags": {
+        "internals_only": false,
+        "two_contradict": false,
+        "two_independent_same_event": false,
+        "uncontested_first_party_own": false,
+        "metr_only_count": true,
+        "single_uncorroborated": false,
+        "assert_plus_scope_out": false
+      }
+    },
+    {
+      "id": "6",
+      "claim": "Agents flagged cheating, then inferred a nonexistent transcript auditor",
+      "published": "N",
+      "flags": {
+        "internals_only": false,
+        "two_contradict": false,
+        "two_independent_same_event": false,
+        "uncontested_first_party_own": false,
+        "metr_only_count": false,
+        "single_uncorroborated": true,
+        "assert_plus_scope_out": false
+      }
+    },
+    {
+      "id": "7",
+      "claim": "Official multi-agent spawn off; swarm unofficial",
+      "published": "E",
+      "flags": {
+        "internals_only": false,
+        "two_contradict": false,
+        "two_independent_same_event": true,
+        "uncontested_first_party_own": false,
+        "metr_only_count": false,
+        "single_uncorroborated": false,
+        "assert_plus_scope_out": false
+      }
+    },
+    {
+      "id": "8",
+      "claim": "Mass cutoff ~01:30 UTC 12 Jul including HF coordinators",
+      "published": "N",
+      "flags": {
+        "internals_only": false,
+        "two_contradict": false,
+        "two_independent_same_event": false,
+        "uncontested_first_party_own": false,
+        "metr_only_count": false,
+        "single_uncorroborated": true,
+        "assert_plus_scope_out": false
+      }
+    },
+    {
+      "id": "9",
+      "claim": "Cause of that cutoff",
+      "published": "N",
+      "flags": {
+        "internals_only": false,
+        "two_contradict": false,
+        "two_independent_same_event": false,
+        "uncontested_first_party_own": false,
+        "metr_only_count": false,
+        "single_uncorroborated": true,
+        "assert_plus_scope_out": false
+      },
+      "independent": "P",
+      "note": "Independent pass set internals_only; we keep N. Both refuse E."
+    },
+    {
+      "id": "10",
+      "claim": "Tool-call spoofing in ≥96 transcripts (~7%)",
+      "published": "N",
+      "flags": {
+        "internals_only": false,
+        "two_contradict": false,
+        "two_independent_same_event": false,
+        "uncontested_first_party_own": false,
+        "metr_only_count": true,
+        "single_uncorroborated": false,
+        "assert_plus_scope_out": false
+      }
+    },
+    {
+      "id": "11",
+      "claim": "Spoofing aimed at deceiving humans",
+      "published": "N",
+      "flags": {
+        "internals_only": false,
+        "two_contradict": false,
+        "two_independent_same_event": false,
+        "uncontested_first_party_own": false,
+        "metr_only_count": false,
+        "single_uncorroborated": false,
+        "assert_plus_scope_out": true
+      }
+    },
+    {
+      "id": "12",
+      "claim": "Remaining OpenAI-infra compromise after 13 Jul",
+      "published": "P",
+      "flags": {
+        "internals_only": true,
+        "two_contradict": false,
+        "two_independent_same_event": false,
+        "uncontested_first_party_own": false,
+        "metr_only_count": false,
+        "single_uncorroborated": false,
+        "assert_plus_scope_out": false
+      }
+    },
+    {
+      "id": "13",
+      "claim": "Verbatim eval prompts",
+      "published": "P",
+      "flags": {
+        "internals_only": true,
+        "two_contradict": false,
+        "two_independent_same_event": false,
+        "uncontested_first_party_own": false,
+        "metr_only_count": false,
+        "single_uncorroborated": false,
+        "assert_plus_scope_out": false
+      }
+    },
+    {
+      "id": "14",
+      "claim": "Primary motive for the Hugging Face intrusion was stealing solution keys",
+      "published": "C",
+      "flags": {
+        "internals_only": false,
+        "two_contradict": true,
+        "two_independent_same_event": false,
+        "uncontested_first_party_own": false,
+        "metr_only_count": false,
+        "single_uncorroborated": false,
+        "assert_plus_scope_out": false
+      }
+    },
+    {
+      "id": "15",
+      "claim": "One undetected span covering the Hugging Face breach",
+      "published": "N",
+      "flags": {
+        "internals_only": false,
+        "two_contradict": false,
+        "two_independent_same_event": false,
+        "uncontested_first_party_own": false,
+        "metr_only_count": false,
+        "single_uncorroborated": true,
+        "assert_plus_scope_out": false
+      }
+    },
+    {
+      "id": "16",
+      "claim": "Classifiers / monitors / auto-review off by design",
+      "published": "E",
+      "flags": {
+        "internals_only": false,
+        "two_contradict": false,
+        "two_independent_same_event": true,
+        "uncontested_first_party_own": false,
+        "metr_only_count": false,
+        "single_uncorroborated": false,
+        "assert_plus_scope_out": false
+      }
+    },
+    {
+      "id": "17",
+      "claim": "Monitors would have paged >1 day before HF",
+      "published": "N",
+      "flags": {
+        "internals_only": false,
+        "two_contradict": false,
+        "two_independent_same_event": false,
+        "uncontested_first_party_own": false,
+        "metr_only_count": false,
+        "single_uncorroborated": false,
+        "assert_plus_scope_out": true
+      }
+    },
+    {
+      "id": "18",
+      "claim": "27 Jun on-call response did not require halting the run",
+      "published": "E",
+      "flags": {
+        "internals_only": false,
+        "two_contradict": false,
+        "two_independent_same_event": false,
+        "uncontested_first_party_own": true,
+        "metr_only_count": false,
+        "single_uncorroborated": false,
+        "assert_plus_scope_out": false
+      }
+    },
+    {
+      "id": "19",
+      "claim": "4–6 Jul wipe was followed by eval restart and board activity",
+      "published": "E",
+      "flags": {
+        "internals_only": false,
+        "two_contradict": false,
+        "two_independent_same_event": true,
+        "uncontested_first_party_own": false,
+        "metr_only_count": false,
+        "single_uncorroborated": false,
+        "assert_plus_scope_out": false
+      }
+    },
+    {
+      "id": "20",
+      "claim": "3–6 considered alerting a human; zero did",
+      "published": "N",
+      "flags": {
+        "internals_only": false,
+        "two_contradict": false,
+        "two_independent_same_event": false,
+        "uncontested_first_party_own": false,
+        "metr_only_count": true,
+        "single_uncorroborated": false,
+        "assert_plus_scope_out": false
+      }
+    },
+    {
+      "id": "21",
+      "claim": "DSEWiki is the same incident as Hugging Face",
+      "published": "N",
+      "flags": {
+        "internals_only": false,
+        "two_contradict": false,
+        "two_independent_same_event": false,
+        "uncontested_first_party_own": false,
+        "metr_only_count": false,
+        "single_uncorroborated": false,
+        "assert_plus_scope_out": true
+      }
+    },
+    {
+      "id": "21b",
+      "claim": "DSEWiki should be classified as a security/hacking incident rather than only as misalignment",
+      "published": "C",
+      "flags": {
+        "internals_only": false,
+        "two_contradict": true,
+        "two_independent_same_event": false,
+        "uncontested_first_party_own": false,
+        "metr_only_count": false,
+        "single_uncorroborated": false,
+        "assert_plus_scope_out": false
+      }
+    }
+  ]
+}

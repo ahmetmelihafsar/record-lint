@@ -1,0 +1,4 @@
+# Excerpt for quote replay. Not a full source page.
+# Original file: metr_local.txt
+
+primarily motivated by understanding the implementation of the scorer rather than stealing answer keys

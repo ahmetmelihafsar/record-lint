@@ -1,0 +1,9 @@
+{
+  "pass": "score-blinded consistency check of nine Table 3 claim units",
+  "not": "human rater; validation",
+  "core_table_3": {
+    "agree": ["14", "15", "16", "17", "18", "19", "20", "21", "21b"],
+    "disagree": [],
+    "raw_agreement": "9/9"
+  }
+}

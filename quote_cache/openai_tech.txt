@@ -1,0 +1,6 @@
+# Excerpt for quote replay. Not a full source page.
+# Original file: openai_tech.txt
+
+stopping the evaluation run was not required
+paged our security team more than a day before
+OpenAI detected suspicious internal activity on July 19

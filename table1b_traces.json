@@ -1,0 +1,11 @@
+{
+  "rows": [
+    {"id": "14", "branch": "two_contradict", "code": "C"},
+    {"id": "15", "branch": "single_uncorroborated", "code": "N"},
+    {"id": "17", "branch": "assert_plus_scope_out", "code": "N"},
+    {"id": "18", "branch": "uncontested_first_party_own", "code": "E"},
+    {"id": "19", "branch": "two_independent_same_event", "code": "E"},
+    {"id": "21", "branch": "no_identity_asserted", "code": "N"},
+    {"id": "21b", "branch": "two_contradict", "code": "C"}
+  ]
+}

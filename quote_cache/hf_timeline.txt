@@ -1,0 +1,5 @@
+# Excerpt for quote replay. Not a full source page.
+# Original file: hf_timeline.txt
+
+steal the test solutions rather than solve the challenge on its own
+The Hugging Face security response team then cut access

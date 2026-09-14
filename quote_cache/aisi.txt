@@ -1,0 +1,4 @@
+# Excerpt for quote replay. Not a full source page.
+# Original file: aisi.txt
+
+Every model we have tested for this behaviour attempted to cheat

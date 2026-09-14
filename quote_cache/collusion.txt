@@ -1,0 +1,5 @@
+# Excerpt for quote replay. Not a full source page.
+# Original file: collusion.txt
+
+we believe this is distinct from the swarm of agents that hacked Hugging Face
+in a way their developers did not intend (writing to the internet was blocked)

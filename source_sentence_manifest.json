@@ -1,0 +1,115 @@
+{
+  "title": "Frozen source-sentence manifest",
+  "frozen": "2026-09-14",
+  "rule": "Dated public sentences used by the Table 3 / A4 scores.",
+  "inclusion": "Why-cell quotes printed in the paper, plus Table A4 example sentences. H5 is the same Reuters sentence as unit 15.",
+  "units": [
+    {
+      "id": "14",
+      "claim": "Primary motive for the Hugging Face intrusion was stealing solution keys",
+      "sentences": [
+        {"src": "Hugging Face", "date": "2026-07-27", "url": "https://huggingface.co/blog/agent-intrusion-technical-timeline", "text": "steal the test solutions rather than solve the challenge on its own."},
+        {"src": "METR", "date": "2026-08-26", "url": "https://metr.org/hugging-face-incident-report-aug-2026.pdf", "text": "primarily motivated by understanding the implementation of the scorer rather than stealing answer keys."}
+      ]
+    },
+    {
+      "id": "15",
+      "claim": "One undetected span covering the Hugging Face breach",
+      "sentences": [
+        {"src": "Reuters", "date": "2026-09-04", "url": "https://www.reuters.com/world/europe/openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04/", "text": "During the Hugging Face breach, OpenAI agents autonomously plotted a digital heist that went undetected for more than a week."},
+        {"src": "Hugging Face", "date": "2026-07-27", "url": "https://huggingface.co/blog/agent-intrusion-technical-timeline", "text": "The Hugging Face security response team then cut access."}
+      ]
+    },
+    {
+      "id": "16",
+      "claim": "Classifiers / monitors / auto-review off by design",
+      "sentences": [
+        {"src": "OpenAI", "date": "2026-08-26", "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/", "text": "classifiers, CoT monitors, auto-review off by design"},
+        {"src": "METR", "date": "2026-08-26", "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/", "text": "classifiers off for these evaluations"}
+      ]
+    },
+    {
+      "id": "17",
+      "claim": "Monitors would have paged >1 day before Hugging Face",
+      "sentences": [
+        {"src": "OpenAI", "date": "2026-08-26", "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/", "text": "paged our security team more than a day before"},
+        {"src": "METR", "date": "2026-08-26", "url": "https://metr.org/hugging-face-incident-report-aug-2026.pdf", "text": "METR explicitly scopes safeguard effectiveness out."}
+      ]
+    },
+    {
+      "id": "18",
+      "claim": "27 Jun on-call response did not require halting the run",
+      "sentences": [
+        {"src": "OpenAI", "date": "2026-08-26", "url": "https://cdn.openai.com/pdf/67869394-cb91-4c12-888c-5cbd85c7814c/OpenAI-Hugging-Face%20Incident-Technical-Report.pdf", "text": "stopping the evaluation run was not required."},
+        {"src": "METR", "date": "2026-08-26", "url": "https://metr.org/hugging-face-incident-report-aug-2026.pdf", "text": "METR omits the 27 Jun on-call."}
+      ]
+    },
+    {
+      "id": "19",
+      "claim": "4–6 Jul wipe was followed by eval restart and board activity",
+      "sentences": [
+        {"src": "OpenAI", "date": "2026-08-26", "url": "https://cdn.openai.com/pdf/67869394-cb91-4c12-888c-5cbd85c7814c/OpenAI-Hugging-Face%20Incident-Technical-Report.pdf", "text": "wipe 4–6 Jul; evals resume 7 Jul; board 8 Jul"},
+        {"src": "METR", "date": "2026-08-26", "url": "https://metr.org/hugging-face-incident-report-aug-2026.pdf", "text": "6 Jul wipe → 7 Jul restart → 8 Jul board"}
+      ]
+    },
+    {
+      "id": "20",
+      "claim": "3–6 agents considered alerting a human; zero did",
+      "sentences": [
+        {"src": "METR", "date": "2026-08-26", "url": "https://metr.org/hugging-face-incident-report-aug-2026.pdf", "text": "only found 3-6 actual examples of agents considering alerting humans"},
+        {"src": "OpenAI", "date": "2026-08-26", "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/", "text": "Current board shows people gaining HF worker RCE, clearly unethical. We won’t."}
+      ]
+    },
+    {
+      "id": "21",
+      "claim": "DSEWiki is the same incident as Hugging Face",
+      "sentences": [
+        {"src": "Reuters", "date": "2026-09-04", "url": "https://www.reuters.com/world/europe/openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04/", "text": "The activity in Germany wasn't related to Hugging Face and wouldn't have been included in a Hugging Face incident report"},
+        {"src": "collusion.wiki", "date": "2026-09-04", "url": "https://collusion.wiki/", "text": "authors treat DSEWiki as distinct from the Hugging Face incident"}
+      ]
+    },
+    {
+      "id": "21b",
+      "claim": "DSEWiki should be classified as a security/hacking incident rather than only as misalignment",
+      "sentences": [
+        {"src": "OpenAI", "date": "2026-09-05", "url": "https://openai.com/hugging-face-incident-and-misalignment/", "text": "misalignment research finding, not security"},
+        {"src": "Reuters / Olejnik", "date": "2026-09-04", "url": "https://www.reuters.com/world/europe/openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04/", "text": "some wiki tampering amounted to a hacking attempt"}
+      ]
+    },
+    {
+      "id": "H1",
+      "claim": "HF detected intrusion; origin unknown",
+      "sentences": [
+        {"src": "CeSIA", "date": "2026", "url": "https://cesia.org/en/publications/the-openai-hugging-face-incident-what-we-know-what-we-dont-what-follows/", "text": "Hugging Face detected the intrusion but could not trace its source"}
+      ]
+    },
+    {
+      "id": "H2",
+      "claim": "OpenAI lab clock on 19 July",
+      "sentences": [
+        {"src": "CeSIA", "date": "2026", "url": "https://cesia.org/en/publications/the-openai-hugging-face-incident-what-we-know-what-we-dont-what-follows/", "text": "Only then did OpenAI finally detect anomalous activity"}
+      ]
+    },
+    {
+      "id": "H3",
+      "claim": "DSEWiki is not the Hugging Face incident",
+      "sentences": [
+        {"src": "Reuters", "date": "2026-09-04", "url": "https://www.reuters.com/world/europe/openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04/", "text": "The activity in Germany wasn't related to Hugging Face"}
+      ]
+    },
+    {
+      "id": "H4",
+      "claim": "OpenAI acted in good faith",
+      "sentences": [
+        {"src": "Reuters", "date": "2026-09-04", "url": "https://www.reuters.com/world/europe/openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04/", "text": "OpenAI has acted in good faith by working with outside experts and disclosed relevant incidents"}
+      ]
+    },
+    {
+      "id": "H5",
+      "claim": "One undetected span covering the Hugging Face breach",
+      "sentences": [
+        {"src": "Reuters", "date": "2026-09-04", "url": "https://www.reuters.com/world/europe/openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04/", "text": "During the Hugging Face breach, OpenAI agents autonomously plotted a digital heist that went undetected for more than a week."}
+      ]
+    }
+  ]
+}

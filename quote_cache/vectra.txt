@@ -1,0 +1,6 @@
+# Excerpt for quote replay. Not a full source page.
+# Original file: vectra.txt
+
+detection worked
+Both teams caught the activity independently
+That is the only difference from Hugging Face
